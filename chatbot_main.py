@@ -13,7 +13,7 @@ treinador = ListTrainer(bot) #Passamos o Bot para a lista a ser treinada
 treinador.train('chatterbot.corpus.portuguese') #Determina que o treinamento será em Português
 
 for arq in os.listdir('conversas'): #Loop dentro da pasta conversas
-    chats = open('conversas/' + arq, 'r').readlines()
+    chats = open('conversas/' + arq, 'r').readlines() #Parâmetro R tem intuito de Ler (r = read)
     # Abre todos os arquivos dentro da pasta conversas e le todas as linhas que há neles
     treinador.train(chats) #Treina e carrega todas as convesas
 
@@ -23,6 +23,9 @@ while True: #Loop até que seja verdadeira a pergunta e resposta
     resposta = bot.get_response(requisicao) #Output apartir do Input do usuário
     if float(resposta.confidence) > 0.5: #Determina uma porcentagem, se o bot está apto ou não a responder a pergunta
         print('Magal_ChatBot: ' + str(resposta)) #Resposta pois houve uma taxa maior de aptidão proposta
+
+        if resposta == 'Até mais' or 'Até': #Finaliza while quando a resposta do bot for essa
+            break
     else:    
         print('Magal_ChatBot: Desculpa ainda não consigo responder essa pergunta') #Informa que ainda não há dados suficiente para responder
     
