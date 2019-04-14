@@ -5,8 +5,15 @@ Tudo ótimo e com você?
 Estou bem
 Quebom
 Qual seu nome?
-Me chamo Bot e voce?
+Me chamo Bot e você?
 Me chamo Edward
 Prazer Edward
+Me chamo Ezequiel
+Prazer Ezequiel
+Me chamo Luiz
+Prazer Luiz
+Quantos anos você tem?
+Muito mais doque você imagina, mas e você quantos anos tem?
+22
 Tchau
 Até mais
