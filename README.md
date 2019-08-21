@@ -1,5 +1,5 @@
 # ChatBot
-O bot apelidade como Magal é uma inteligencia artificial, ou máquina de aprendizado baseada em dialogos, foi criado para trabalho da faculdade.
+Um bot apelidado como Magal é uma inteligencia artificial, ou máquina de aprendizado baseada em dialogos, foi criado para trabalho da faculdade.
 
 # Depêndencias
  - pip3 (versão: 9.0.1)
